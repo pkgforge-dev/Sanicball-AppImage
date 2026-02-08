@@ -17,6 +17,7 @@ pacman -Syu --noconfirm \
     libxaw        \
     qt5-base      \
     qt5-x11extras \
+    qt6-5compat   \
     rrdtool       \
     sdl2
 
