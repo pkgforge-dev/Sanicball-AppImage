@@ -6,23 +6,9 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm \
-    libdecor      \
-    sdl2
-    #ffmpeg        \
-    #freeglut      \
-    #rrdtool       \
-    #gcr           \
-    #gd            \
-    #kwindowsystem \
-    #kguiaddons    \
-    #kwayland5     \
-    
-    #libxaw        \
-    #qt5-base      \
-    #qt5-x11extras \
-    #qt6-5compat   \
-    
+#pacman -Syu --noconfirm \
+#    libdecor      \
+#    sdl2
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
