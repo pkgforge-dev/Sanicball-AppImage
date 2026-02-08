@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=0.8.2
+Name=Sanicball
+Comment="An extraordinarily fast racing game"
+Exec=Sanicball_v0.8.2.x86_64
+Icon=sanicball
+Terminal=false
+Categories=Game;Racing;Simulation
