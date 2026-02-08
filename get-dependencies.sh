@@ -7,9 +7,9 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
+    ffmpeg        \
     gcr           \
     gd            \
-    ffmpeg        \
     kwindowsystem \
     kguiaddons    \
     kwayland5     \
