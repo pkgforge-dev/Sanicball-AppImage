@@ -9,11 +9,11 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     ffmpeg        \
     freeglut      \
-    gcr           \
-    gd            \
     libdecor      \
     rrdtool       \
     sdl2
+    #gcr           \
+    #gd            \
     #kwindowsystem \
     #kguiaddons    \
     #kwayland5     \
@@ -38,4 +38,5 @@ bsdtar -xvf ./sanicball-v0.8.2-linux.zip
 rm -f *.zip
 mkdir -p ./AppDir/bin
 mv -v Sanicball_v0.8.2_Data ./AppDir/bin
+chmod +x Sanicball_v0.8.2.x86_64
 mv -v Sanicball_v0.8.2.x86_64 ./AppDir/bin
