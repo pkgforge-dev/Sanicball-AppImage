@@ -7,7 +7,8 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-    libdecor
+    libdecor \
+    gnu-free-fonts
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
